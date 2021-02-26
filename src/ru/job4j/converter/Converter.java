@@ -11,7 +11,6 @@ public class Converter {
     // Метод переводящий рубли в доллары
     public static int rubleToDollar(int value) {
         return value / 60; /* формула перевода рублей в доллары. */
-
     }
 
 
