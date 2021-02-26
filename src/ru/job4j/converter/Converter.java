@@ -4,14 +4,14 @@ public class Converter {
 
     // Метод переводящий рубли в евро
     public static int rubleToEuro(int value) {
-        int rsl = value / 70;
-        return rsl;
+        return  value / 70;
+
     }
 
     // Метод переводящий рубли в доллары
     public static int rubleToDollar(int value) {
-        int rsl = value / 60; /* формула перевода рублей в доллары. */
-        return rsl;
+        return value / 60; /* формула перевода рублей в доллары. */
+
     }
 
 
