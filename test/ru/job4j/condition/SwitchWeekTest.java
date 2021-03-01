@@ -27,7 +27,7 @@ public class SwitchWeekTest {
     public void when8thenError() {
         int i = 8;
         String out = SwitchWeek.nameOfDay(i);
-        String expected = "Ошибка";
+        String expected = "Ошибка!";
         Assert.assertEquals(out, expected);
     }
 }
