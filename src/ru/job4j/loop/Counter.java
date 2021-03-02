@@ -19,5 +19,9 @@ public class Counter {
         return sum;
     }
 
+    public static void main(String[] args) {
+        System.out.println(sumByEven(2,200));
+    }
+
 
 }
