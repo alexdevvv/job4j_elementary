@@ -7,12 +7,12 @@ public class AlertDivByZero {
         possibleDiv(-1);
     }
 
-    public static void possibleDiv(int number){
-        if(number < 0){
+    public static void possibleDiv(int number) {
+        if (number < 0) {
             System.out.println("This is negative numbers");
-        } else if (number == 0){
+        } else if (number == 0) {
             System.out.println("This number is 0");
-        }else {
+        } else {
             System.out.println("This is positive numbers");
         }
     }
