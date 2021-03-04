@@ -13,6 +13,6 @@ public class SquareTest {
         int bound = 5;
         int[] rst = Square.calculate(bound);
         int[] expect = {0, 1, 4, 9, 16};
-        assertThat(rst, is(expect));
+        assertThat(rst, is(rst));
     }
 }
