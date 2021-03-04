@@ -9,7 +9,7 @@ public class ArrayLoop {
             array[i] = i * 2 + 3;
         }
 
-        // Выводим массив на консоль с помощью  for-each
+        // Выводим массив на консоль с помощью  for - each
         for (Integer i : array) {
             System.out.println(i);
         }
