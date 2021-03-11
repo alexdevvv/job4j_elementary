@@ -13,7 +13,6 @@ public class Matrix {
 
     public static void main(String[] args) {
         int[][] array = multiple(9);
-
         for (int i = 0; i < args.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 System.out.println(array[i][j]);
